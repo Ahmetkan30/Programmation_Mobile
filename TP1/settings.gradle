@@ -1,0 +1,3 @@
+include ':ListePlanetes'
+include ':app'
+rootProject.name = "TP1"

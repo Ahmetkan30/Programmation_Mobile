@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tp2</string>
+    <string name="centim_tre">Centimètre</string>
+    <string name="appr_ciation">Appréciation</string>
+    <string name="calculer_l_imc">Calculer l\'IMC</string>
+    <string name="r_sultat">Résultat:</string>
+    <string name="m_tre">Mètre</string>
+    <string name="taille">Taille :</string>
+    <string name="d_terminez_votre_taille">Déterminez votre taille :</string>
+    <string name="poids">Poids :</string>
+    <string name="d_terminez_votre_poids">Déterminez votre poids :</string>
+    <string name="recommencer">recommencer</string>
+    <string name="clique_sur_le_bouton_calculer_pour_avoir_un_r_sultat">Clique_sur_le_bouton_calculer..._pour_avoir_un_r_sultat</string>
+</resources>
