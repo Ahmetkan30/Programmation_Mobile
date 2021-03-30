@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tp4Exo2</string>
+    <string name="Paypal"> Payer avec Paypal </string>
+    <string name="email"> Email </string>
+    <string name="motdepasse"> Mot de passe </string>
+    <string name="payer"> Payer </string>
+    <string name="dateexpiration"> Date d\'expiration </string>
+    <string name="cryptogrammevisuel"> cryptogramme visuel </string>
+    <string name="numérodecarte"> Numéro de carte banquaire </string>
+    <string name="Nom"> Nom </string>
+    <string name="Prénom"> Prénom </string>
+    <string name="payeravecpaypal">Payer par Paypal</string>
+    <string name="payementencarte"> Payer par carte banquaire</string>
+    <string name="paramètrespaiement">Choix de payement</string>
+</resources>

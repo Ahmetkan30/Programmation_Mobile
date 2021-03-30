@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tp4Exo1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="titre_section0">Hiver</string>
+    <string name="titre_section1">Printemps</string>
+    <string name="titre_section2">Été</string>
+    <string name="titre_section3">Automne</string>
+    <string name="menu_section">Menu</string>
+</resources>
