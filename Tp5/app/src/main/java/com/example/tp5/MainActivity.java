@@ -1,18 +1,23 @@
 package com.example.tp5;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements DetecteurDeClicSurRecycler{
     private RecyclerView mRecyclerView;
     private MonRecyclerViewAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+    CoordinatorLayout mcoordinatorLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
         mAdapter = new MonRecyclerViewAdapter(getDataSource());
         mRecyclerView.setAdapter(mAdapter);
+        //RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, R.drawable.divider);
+        //mRecyclerView.addItemDecoration(itemDecoration);
     }
     private ArrayList<Donnee> getDataSource() {
         ArrayList results = new ArrayList<Donnee>();
@@ -33,8 +40,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return results;
     }
-    public interface DetecteurDeClicSurRecycler {
-        public void clicSurRecyclerItem(int position, View v);
+    public void clicSurRecyclerItem(int position, View v) {
+        mcoordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
+        Snackbar.make(mcoordinatorLayout, " Clic sur l'item " + position, Snackbar.LENGTH_LONG).show();
     }
     @Override
     protected void onResume() {
