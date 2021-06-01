@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP2Bonus</string>
+    <string name="nom">Nom</string>
+    <string name="Taille">Taille</string>
+    <string name="nom_planete">Nom de la planete</string>
+    <string name="Taille_planete">Taille de la planete</string>
+    <string name="ajout_planet">Ajouter une planete</string>
+    <string name="nom_invalide">nom invalide</string>
+    <string name="taille_invalide" />
+</resources>
